@@ -1,0 +1,35 @@
+Verb (alias),Action,Synonyms to avoid,Verb,Alias
+Add (a),"Adds a resource to a container, or attaches an item to another item. For example, the Add-Content cmdlet adds content to a file. This verb is paired with Remove.","Append, Attach, Concatenate, Insert",Add,a
+Clear (cl),"Removes all the resources from a container but does not delete the container. For example, the Clear-Content cmdlet removes the contents of a file but does not delete the file.","Flush, Erase, Release, Unmark, Unset, Nullify",Clear,cl
+Close (cs),"Changes the state of a resource to make it inaccessible, unavailable, or unusable. This verb is paired with Open.",,Close,cs
+Copy (cp),"Copies a resource to another name or to another container. For example, the Copy-Item cmdlet copies an item (such as a file) from one location in the data store to another location.","Duplicate, Clone, Replicate, Sync",Copy,cp
+Enter (et),"Specifies an action that allows the user to move into a resource. For example, the Enter-PSSession cmdlet places the user in an interactive session. This verb is paired with Exit.","Push, Into",Enter,et
+Exit (ex),"Sets the current environment or context to the most recently used context. For example, the Exit-PSSession cmdlet places the user in the session that was used to start the interactive session. This verb is paired with Enter.","Pop, Out",Exit,ex
+Find (fd),"Looks for an object in a container that is unknown, implied, optional, or specified.",Search,Find,fd
+Format (f),Arranges objects in a specified form or layout,,Format,f
+Get (g),Specifies an action that retrieves a resource. This verb is paired with Set.,"Read, Open, Cat, Type, Dir, Obtain, Dump, Acquire, Examine, Find, Search",Get,g
+Hide (h),"Makes a resource undetectable. For example, a cmdlet whose name includes the Hide verb might conceal a service from a user. This verb is paired with Show.",Block,Hide,h
+Join (j),"Combines resources into one resource. For example, the Join-Path cmdlet combines a path with one of its child paths to create a single path. This verb is paired with Split.","Combine, Unite, Connect, Associate",Join,j
+Lock (lk),Secures a resource. This verb is paired with Unlock.,"Restrict, Secure",Lock,lk
+Move (m),"Moves a resource from one location to another. For example, the Move-Item cmdlet moves an item from one location in the data store to another location.","Transfer, Name, Migrate",Move,m
+New (n),"Creates a resource. (The Set verb can also be used when creating a resource that includes data, such as the Set-Variable cmdlet.)","Create, Generate, Build, Make, Allocate",New,n
+Open (op),"Changes the state of a resource to make it accessible, available, or usable. This verb is paired with Close.",,Open,op
+Optimize (om),Increases the effectiveness of a resource.,,Optimize,om
+Pop (pop),"Removes an item from the top of a stack. For example, the Pop-Location cmdlet changes the current location to the location that was most recently pushed onto the stack.",,Pop,pop
+Push (pu),"Adds an item to the top of a stack. For example, the Push-Location cmdlet pushes the current location onto the stack.",,Push,pu
+Redo (re),Resets a resource to the state that was undone.,,Redo,re
+Remove (r),"Deletes a resource from a container. For example, the Remove-Variable cmdlet deletes a variable and its value. This verb is paired with Add.","Clear, Cut, Dispose, Discard, Erase",Remove,r
+Rename (rn),"Changes the name of a resource. For example, the Rename-Item cmdlet, which is used to access stored data, changes the name of an item in the data store.",Change,Rename,rn
+Reset (rs),Sets a resource back to its original state.,,Reset,rs
+Resize(rz),Changes the size of a resource.,,Resize,rz
+Search (sr),Creates a reference to a resource in a container.,"Find, Locate",Search,sr
+Select (sc),"Locates a resource in a container. For example, the Select-String cmdlet finds text in strings and files.","Find, Locate",Select,sc
+Set (s),"Replaces data on an existing resource or creates a resource that contains some data. For example, the Set-Date cmdlet changes the system time on the local computer. (The New verb can also be used to create a resource.) This verb is paired with Get.","Write, Reset, Assign, Configure",Set,s
+Show (sh),Makes a resource visible to the user. This verb is paired with Hide.,"Display, Produce",Show,sh
+Skip (sk),Bypasses one or more resources or points in a sequence.,"Bypass, Jump",Skip,sk
+Split (sl),"Separates parts of a resource. For example, the Split-Path cmdlet returns different parts of a path. This verb is paired with Join.",Separate,Split,sl
+Step (st),Moves to the next point or resource in a sequence.,,Step,st
+Switch (sw),"Specifies an action that alternates between two resources, such as to change between two locations, responsibilities, or states.",,Switch,sw
+Undo (un),Sets a resource to its previous state.,,Undo,un
+Unlock (uk),Releases a resource that was locked. This verb is paired with Lock.,"Release, Unrestrict, Unsecure",Unlock,uk
+Watch (wc),Continually inspects or monitors a resource for changes.,,Watch,wc
